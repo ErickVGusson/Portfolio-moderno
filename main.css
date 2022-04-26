@@ -57,6 +57,7 @@ nav ul li a {
     padding: 10px;
     text-decoration: none;
     margin: 0 110px;
+    font-size: 16px;
 }
 
 .pCima {
@@ -139,6 +140,39 @@ nav ul li a {
 }
 
 .pDireita p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.destacados h1 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.destacados h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.destacados h3 {
+    color: white;
+    background: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 1px 10px;
+    text-decoration: none;
+    width: 45px;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.destacados h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8695A4;
+}
+
+.destacados p {
     font-size: 16px;
     font-weight: 400;
 }
