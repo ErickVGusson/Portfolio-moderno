@@ -1,7 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family:sans-serif;
+}
+
+body {
+    width: 1152px;
+    margin: 0 auto;
 }
 
 header {
@@ -25,7 +30,7 @@ nav ul li a {
 
 .intro {
     width: 500px;
-    margin: 225px 0 0 150px;
+    margin: 225px 0 0 110px;
 }
 
 .intro h1 {
@@ -40,7 +45,9 @@ nav ul li a {
     margin: 10px 0 40px;
 }
 
-.img1 {}
+.intro img {
+    margin: -70px -470px;
+}
 
 .dowload {
     color: white;
@@ -49,5 +56,89 @@ nav ul li a {
     border-radius: 5px;
     padding: 10px;
     text-decoration: none;
-    margin: 0 145px;
+    margin: 0 110px;
+}
+
+.pCima {
+    background-color: #EDF7FA;
+    margin: 50px 0 0;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pCima h1 {
+    font-size: 22px;
+    font-weight: 400px;
+}
+
+.postA {
+    margin: 0 0 0 430px;
+    text-decoration: none;
+    background-color: #EDF7FA;
+}
+
+.post {
+    background-color: #EDF7FA;
+    margin: 0 0 50px;
+    display: flex;
+    height: 350px;
+    justify-content: center;
+}
+
+.pEsquerda {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgb(187 225 250 / 25%);
+    border-radius: 4px;
+    width: 418px;
+    height: 295px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.pEsquerda h1 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.pEsquerda h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pEsquerda p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pDireita {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgb(187 225 250 / 25%);
+    border-radius: 4px;
+    width: 418px;
+    height: 295px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.pDireita h1 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.pDireita h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pDireita p {
+    font-size: 16px;
+    font-weight: 400;
 }
