@@ -144,7 +144,7 @@ nav ul li a {
     font-weight: 400;
 }
 
-.destacados h1 {
+.d0{
     font-size: 22px;
     font-weight: 400;
 }
@@ -175,4 +175,15 @@ nav ul li a {
 .destacados p {
     font-size: 16px;
     font-weight: 400;
+}
+
+footer {
+    width: 330px;
+    display: block;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+footer img {
+    margin: 15px;
 }
