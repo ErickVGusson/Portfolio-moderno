@@ -149,12 +149,26 @@ nav ul li a {
     font-weight: 400;
 }
 
+.destacados {
+    margin: 40px 0 90px;
+    display: inline;
+}
+
+.d1 img {
+    margin: 0px 0px;
+}
+
+.destacados hr {
+    margin: 15px 0;
+}
+
 .destacados h2 {
     font-size: 30px;
     font-weight: 700;
+    margin: 15px 20px;
 }
 
-.destacados h3 {
+.s1 {
     color: white;
     background: black;
     border: 1px solid black;
@@ -164,26 +178,38 @@ nav ul li a {
     width: 45px;
     font-size: 18px;
     font-weight: 700px;
+    margin: 15px 20px;
 }
 
-.destacados h4 {
+.s2 {
     font-size: 20px;
     font-weight: 400;
     color: #8695A4;
+    margin: 15px 20px;
 }
 
 .destacados p {
     font-size: 16px;
     font-weight: 400;
+    margin: 15px 20px;
 }
 
 footer {
-    width: 330px;
-    display: block;
-    justify-content: center;
-    margin: 50px auto;
+    margin: 80px auto;
 }
 
-footer img {
-    margin: 15px;
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 20px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
 }
