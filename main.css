@@ -47,6 +47,7 @@ nav ul li a {
 
 .intro img {
     margin: -70px -470px;
+    float: right;
 }
 
 .dowload {
@@ -154,8 +155,13 @@ nav ul li a {
     display: inline;
 }
 
+.d1 {
+    margin: 40px;
+}
+
 .d1 img {
-    margin: 0px 0px;
+    margin: -13px 20px;
+    float: left;
 }
 
 .destacados hr {
@@ -212,4 +218,5 @@ footer p {
     font-weight: 400;
     display: flex;
     justify-content: center;
+    margin: 20px 0 0;
 }
